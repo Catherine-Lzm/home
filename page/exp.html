@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Catherine Home Page</title>
+
+	<style>
+		html,body{
+			width:100%;
+			height:100%;
+			margin:0px;
+			padding:0px;
+			position:absolute;
+			background:#f5f5f5;
+			
+		}
+		.body{
+			background:#f5f5f5;
+		}
+		.header-conf{
+			background-color:#e8e8e8;
+			text-align:center;
+			border-top:4px outset #63105f;
+			border-left:4px double #63105f;
+			border-right:4px double #63105f;
+			border-bottom:4px inset #63105f;
+		}
+		.header-conf h1{
+			font-size:50px;
+			font-family:黑体;
+			font-weight:bold;
+			color:#63105f;
+		}
+		.line{
+			border-top:5px solid #c5c5c5;
+			margin-top:1px;
+			margin-bottom:1px;
+			width:100%;
+			
+		}
+		.nav-bar{
+			background-color:#e8e8e8;
+			text-align:center;
+			font-size:1.5em;
+			border-top:3px double #63105f;
+			border-left:3px double #63105f;
+			border-right:3px double #63105f;
+			border-bottom:3px double #63105f;
+			margin-top:30px;
+			margin-left:-15px;	
+			z-index:10;		
+		}
+		.nav-bar li a{
+	
+			color:#63105f;
+			font-size:20px;
+		}
+		.nav-bar > .active {
+			background:#63105f;
+			background-color:#63105f;
+			color:#fff;
+		}
+		.nav-pills li a:hover 
+		 {
+			color:#f50935;
+			background-color:#63105f;
+		 }
+		 .content-1{
+			color:#63105f;
+			margin-top:30px;
+			text-align: center;	
+		}
+		 .content-2{
+			color:#63105f;
+			margin-top:10px;
+			text-align: center;
+		}
+		.greybar{
+			background-color:#ddd;
+			border-top:5px outset #c5c5c5
+			height:70px;
+			width:100%;
+			bottom:0px;
+			margin-top:30px;
+			
+	   }
+	   .foot-conf{
+			font-size: 15px;
+			color:#63105f;
+			text-align:center;
+
+	   }
+		
+	</style>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="body">
+	<div class="body">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 header-conf">
+					<h1 >欢迎来到我的主页</h1>
+				</div>
+			</div>
+		</div>
+		<div class="line">	
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-2">
+					<ul class="nav nav-pills nav-stacked nav-bar">
+						<li ><a href="../index.html">主页</a></li>
+						<li><a href="eduction.html">教育背景</a></li>
+						<li  ><a href="award.html">获奖情况</a></li>
+						<li ><a href="student-exp.html">学生工作经历</a></li>
+						<li  ><a href="volu.html">志愿经历</a></li>
+						<li  ><a href="study.html">科研经历</a></li>
+						<li  class="active"><a href="exp.html">实习经历</a></li>
+						<li  ><a href="langu.html">语言成绩</a></li>
+						<li  ><a href="evalu.html">自我评价</a></li>
+						<li  ><a href="../index.html">English</a></li>
+					  </ul>
+				</div>
+				<div class="row">
+					<div class="col-md-2  content-1">
+						<h3><strong>时间</strong></h3>
+					</div>
+					<div class="col-md-4  content-1">
+						<h3><strong>工作单位</strong></h3>
+					</div>
+					<div class="col-md-2  content-2">
+						<h4>2013.6-2013.9</h4>
+					</div>
+					<div class="col-md-4  content-2">
+						<h4>徐州市贾汪区人民政府文广新体局</h4>
+					</div>
+					
+				
+				</div>	
+			</div>
+		</div>
+		<footer class="greybar">
+			<em>
+				<h5 class="foot-conf">Catherine Home Page</h5>
+			<em>
+		</footer>
+	</div>
+  </body>
+	
+</html>
