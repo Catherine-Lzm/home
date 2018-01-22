@@ -49,9 +49,8 @@
 			border-left:3px double #63105f;
 			border-right:3px double #63105f;
 			border-bottom:3px double #63105f;
-			top:30px;
-			left:0px;
-			position:absolute;
+			margin-top:30px;
+			margin-left:-15px;
 		}
 		.nav-bar li a{
 			
@@ -70,34 +69,36 @@
 		 }
 		 .content-1{
 			color:#63105f;
-			top:70px;
-			position:absolute;
+			margin-top:30px;
+			text-align: center;
 		 }
 		 .content-2{
-			left:5px;
 			color:#63105f;
-			top:75px;
-			position:absolute;
+			margin-top:10px;
+			text-align: center;
 		 }
-		 .content-3{
-			left:5px;
-			color:#63105f;
-			top:80px;
-			position:absolute;
+		 .content-2 h4 a{
+		 	color: #63105f;
 		 }
+		 .content-2 h4 a:hover{
+		 	color:#f50935;
+		 	text-decoration:none;
+		 }
+		 
 		 .content-4{
-			
-			left:5px;
 			color:#63105f;
-			top:90px;
-			position:absolute;
+			margin-top:30px;
+			text-align: center;
 		 }
 		 .content-5{
-			
-			left:30px;
 			color:#63105f;
-			top:90px;
-			position:absolute;
+			margin-top:5px;
+
+		 }
+		 .content-5 h4{
+		 	line-height: 35px;
+		 	text-indent : 40px;
+		 	letter-spacing:3px;
 		 }
 		.greybar{
 			background-color:#ddd;
@@ -105,9 +106,9 @@
 			height:70px;
 			width:100%;
 			bottom:0px;
-			margin-bottom:1px;
-			margin-top:1px;
-			position:fixed;
+			margin-top:30px;
+			
+			
 	   }
 	   .foot-conf{
 			font-size: 15px;
@@ -144,87 +145,87 @@
 				<div class="col-md-2 col-md-offset-2">
 					<ul class="nav nav-pills nav-stacked nav-bar">
 						<li ><a href="../index.html">主页</a></li>
-						<li class="active"s><a href="./page/eduction.html">教育背景</a></li>
-						<li  ><a href="">获奖情况</a></li>
-						<li ><a href="">学生工作经历</a></li>
-						<li  ><a href="">志愿经历</a></li>
-						<li  ><a href="">科研经历</a></li>
-						<li  ><a href="">实习经历</a></li>
-						<li  ><a href="">语言成绩</a></li>
-						<li  ><a href="">自我评价</a></li>
-						<li  ><a href="">English</a></li>
+						<li class="active"s><a href="eduction.html">教育背景</a></li>
+						<li  ><a href="award.html">获奖情况</a></li>
+						<li ><a href="student-exp.html">学生工作经历</a></li>
+						<li  ><a href="volu.html">志愿经历</a></li>
+						<li  ><a href="study.html">科研经历</a></li>
+						<li  ><a href="volu.html">实习经历</a></li>
+						<li  ><a href="langu.html">语言成绩</a></li>
+						<li  ><a href="evalu.html">自我评价</a></li>
+						<li  ><a href="../index.html">English</a></li>
 					  </ul>
 				</div>
 				<div class="row">
+					
 					<div class="col-md-1  content-1">
-						<h4>时间</h4>
+						<h3><strong>学校</strong></h3>
 					</div>
 					<div class="col-md-1  content-1">
-						<h4>毕业院校</h4>
+						<h3><strong>专业</strong></h3>
 					</div>
 					<div class="col-md-1  content-1">
-						<h4>专业</h4>
+						<h3><strong>学历</strong></h3>
 					</div>
 					<div class="col-md-1  content-1">
-						<h4>学历</h4>
+						<h3><strong>绩点</strong></h3>
 					</div>
 					<div class="col-md-1  content-1">
-						<h4>绩点</h4>
+						<h3><strong>排名</strong></h3>
 					</div>
-					<div class="col-md-1  content-1">
-						<h4>排名</h4>
+					<div class="col-md-2  content-1">
+						<h3><strong>时间</strong></h3>
 					</div>
-				</div>
-				<div class="row  ">
-					<div class="col-md-1 col-md-offset-4 content-2">
-						<h5>2012.9-2016.6</h5>
+			
+					<div class="col-md-1  content-2">
+						<h4 ><a href="http://www.suda.edu.cn/">苏州大学</a></h4>
 					</div>
 					<div class="col-md-1  content-2">
-						<h5 ><a style="color:#63105f" href="http://www.suda.edu.cn/">苏州大学</a></h5>
+						<h4><a href="http://twzsy.suda.edu.cn/">文学</a></h4>
 					</div>
 					<div class="col-md-1  content-2">
-						<h5><a style="color:#63105f" href="http://www.sdwz.cn/">文学</a></h5>
+						<h4>本科</h4>
 					</div>
 					<div class="col-md-1  content-2">
-						<h5>本科</h5>
+						<h4>3.8/4.0</h4>
 					</div>
 					<div class="col-md-1  content-2">
-						<h5>3.8/4.0</h5>
+						<h4>2/24</h4>
+					</div>
+					<div class="col-md-2  content-2">
+						<h4>2012.9-2016.6</h4>
+					</div>
+
+					
+					<div class="col-md-1  content-2">
+						<h4 ><a href="https://www.nju.edu.cn/">南京大学</a></h4>
 					</div>
 					<div class="col-md-1  content-2">
-						<h5>2/24</h5>
+						<h4><a href="http://chin.nju.edu.cn/">文学</a></h4>
 					</div>
-				</div>
-				<div class="row ">
-					<div class="col-md-1 col-md-offset-4 content-3">
-						<h5>2016.9-2019.6</h5>
+					<div class="col-md-1  content-2">
+						<h4>硕士</h4>
 					</div>
-					<div class="col-md-1 content-3">
-						<h5 ><a style="color:#63105f" href="https://www.nju.edu.cn/">南京大学</a></h5>
+					<div class="col-md-1  content-2">
+						<h4>暂无</h4>
 					</div>
-					<div class="col-md-1 content-3">
-						<h5><a style="color:#63105f" href="http://chin.nju.edu.cn/">文学</a></h5>
+					<div class="col-md-1  content-2">
+						<h4>暂无</h4>
 					</div>
-					<div class="col-md-1 content-3">
-						<h5>硕士</h5>
+					<div class="col-md-2  content-2">
+						<h4>2016.9-2019.6</h4>
 					</div>
-					<div class="col-md-1 content-3">
-						<h5>暂无</h5>
+
+					<div class="col-md-6  content-4">
+						<h3><strong>专业优势以及个人优势</strong></h3>
 					</div>
-					<div class="col-md-1 content-3">
-						<h5>暂无</h5>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6 col-md-offset-4  content-4">
-					<h3><strong>专业优势以及个人优势：</strong></h3>
-					</div>
-					<div class="col-md-4 col-md-offset-4  content-5">
-					<h4>本人主修过文学、历史学、哲学以及专业英语等课程，大学期间有过专业英语强化训 练的学习经历。本人性格积极向上，曾在院级杂志担任英文编辑，因此较擅于英文写作和教学工作。此外， 本人已在相关学术刊物（省级、国家级核刊）发表学术论文若干，有较为缜密的逻辑论证思维，在工作中多 能保持条理性与思辨性。另外，本人曾有幸参与大学专业书籍出版的编辑和校对工作，在工作中认真负责， 且耐心细致。现阶段在强化英文学习，同时修读德语的相关课程。 </h4>
+					<div class="col-md-6 content-5">
+						<h4>本人主修过文学、历史学、哲学以及专业英语等课程，大学期间有过专业英语强化训 练的学习经历。本人性格积极向上，曾在院级杂志担任英文编辑，因此较擅于英文写作和教学工作。此外， 本人已在相关学术刊物（省级、国家级核刊）发表学术论文若干，有较为缜密的逻辑论证思维，在工作中多 能保持条理性与思辨性。另外，本人曾有幸参与大学专业书籍出版的编辑和校对工作，在工作中认真负责， 且耐心细致。现阶段在强化英文学习，同时修读德语的相关课程。 </h4>
 					</div>
 				</div>
 				
-				</div>	
+				
+				
 			</div>
 		</div>
 		<footer class="greybar">

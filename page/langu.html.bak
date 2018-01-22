@@ -50,10 +50,11 @@
 			border-right:3px double #63105f;
 			border-bottom:3px double #63105f;
 			margin-top:30px;
-			margin-left:-15px;
+			margin-left:-15px;	
+			z-index:10;		
 		}
 		.nav-bar li a{
-			
+	
 			color:#63105f;
 			font-size:20px;
 		}
@@ -70,25 +71,22 @@
 		 .content-1{
 			color:#63105f;
 			margin-top:30px;
-			text-align: center;
-		 }
+			text-align: center;	
+		}
 		 .content-2{
 			color:#63105f;
+			margin-top:10px;
 			text-align: center;
 		 }
-		 .content-3{
-			color:#63105f;
-			left:5px;
-			text-align: center;
-		 }
-		
+		 
 		.greybar{
 			background-color:#ddd;
 			border-top:5px outset #c5c5c5;
 			height:70px;
 			width:100%;
 			bottom:0px;
-			margin-top: 30px;
+			margin-top:30px;
+			
 	   }
 	   .foot-conf{
 			font-size: 15px;
@@ -124,121 +122,71 @@
 			<div class="row">
 				<div class="col-md-2 col-md-offset-2">
 					<ul class="nav nav-pills nav-stacked nav-bar">
-						<li ><a href="../index.html">主页</a></li>
+						<li><a href="../index.html">主页</a></li>
 						<li><a href="eduction.html">教育背景</a></li>
-						<li class="active" ><a href="award.html">获奖情况</a></li>
+						<li  ><a href="award.html">获奖情况</a></li>
 						<li ><a href="student-exp.html">学生工作经历</a></li>
 						<li  ><a href="volu.html">志愿经历</a></li>
 						<li  ><a href="study.html">科研经历</a></li>
 						<li  ><a href="exp.html">实习经历</a></li>
-						<li  ><a href="langu.html">语言成绩</a></li>
+						<li   class="active"><a href="langu.html">语言成绩</a></li>
 						<li  ><a href="evalu.html">自我评价</a></li>
 						<li  ><a href="../index.html">English</a></li>
 					  </ul>
 				</div>
 				<div class="row">
 					<div class="col-md-2  content-1">
-						<h3><strong>时间</strong></h3>
+						<h3><strong>语种</strong></h3>
 					</div>
-					<div class="col-md-4  content-1">
-						<h3><strong>奖项  </strong></h3>
-					</div>
-					<div class="col-md-2  content-2">
-						<h4>2013</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>国家励志奖学金  </h4>
-					</div>
-					<div class="col-md-2  content-2">
-						<h4>2014</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>国家励志奖学金  </h4>
-					</div>
-					<div class="col-md-2  content-2">
-						<h4>2015</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>国家励志奖学金  </h4>
-					</div>
-					<div class="col-md-2   content-2">
-						<h4>2012-2013</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学学习优秀一等奖  </h4>
-					</div>
-					<div class="col-md-2  content-2">
-						<h4>2012-2013</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学卓越创新特等奖  </h4>
+					<div class="col-md-2 content-1">
+						<h3><strong>等级</strong></h3>
 					</div>
 
-					<div class="col-md-2  content-2">
-						<h4>2012-2013</h4>
+					<div class="col-md-2 content-1 ">
+						<h3><strong>分数</strong></h3>
 					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学新嘉福助学金  </h4>
+					<div class="col-md-2  content-2">
+						<h4>英语</h4>
 					</div>
 					<div class="col-md-2 content-2">
-						<h4>2013-2014</h4>
+						<h4>CET-4</h4>
 					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学学习优秀一等奖  </h4>
-					</div>
-					<div class="col-md-2  content-2">
-						<h4>2013-2014</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>和合基金助学金  </h4>
+
+					<div class="col-md-2 content-2">
+						<h4>569</h4>
 					</div>
 					<div class="col-md-2  content-2">
-						<h4>2013-2014</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学本科生一等助学金以及一等学费减免  </h4>
-					</div>
-					<div class="col-md-2  content-2">
-						<h4>2014-2016</h4>
-					</div>
-					<div class="col-md-4  content-2">
-						<h4>“江苏省大学生创新创业训练计划（2014）” 获得优秀  </h4>
+						<h4>英语</strong></h4>
 					</div>
 					<div class="col-md-2 content-2">
-						<h4>2014-2015</h4>
+						<h4>CET-6</h4>
 					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学学习优秀二等奖  </h4>
+
+					<div class="col-md-2 content-2">
+						<h4>520</h4>
 					</div>
 					<div class="col-md-2  content-2">
-						<h4>2014-2015</h4>
+						<h4>德语</h4>
 					</div>
-					<div class="col-md-4  content-2">
-						<h4>苏州大学本科生一等助学金  </h4>
-					</div>
-					<div class="col-md-2  col-md-offset-4 content-3">
-						<h4>2016-2017</h4>
-					</div>
-					<div class="col-md-4  content-3">
-						<h4>南京大学学业一等奖学金  </h4>
-					</div>
-					<div class="col-md-2  col-md-offset-4 content-3">
-						<h4>2017-2018</h4>
-					</div>
-					<div class="col-md-4  content-3">
-						<h4>南京大学学业一等奖学金  </h4>
-					</div>
-					<div class="col-md-2  col-md-offset-4 content-3">
-						<h4>2018-2019</h4>
-					</div>
-					<div class="col-md-4  content-3">
-						<h4>南京大学学业一等奖学金  </h4>
+					<div class="col-md-2 content-2">
+						<h4>A1</h4>
 					</div>
 
+					<div class="col-md-2 content-2 ">
+						<h4>76</h3>
+					</div>
+					<div class="col-md-2  content-2">
+						<h4>德语</h4>
+					</div>
+					<div class="col-md-2 content-2">
+						<h4>A2</h4>
+					</div>
 
-
-				</div>
+					<div class="col-md-2 content-2 ">
+						<h4>在读</h4>
+					</div>
 				
+				</div>	
 			</div>
 		</div>
 		<footer class="greybar">
